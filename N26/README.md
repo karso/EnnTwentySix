@@ -37,6 +37,7 @@ DNS request successfully sent
 
 ### 	Concerns
 Not every DNS server / service provider supports this.
+
 TLS has it's own set of vulnerabilities. 
 
 ### Use in MicroService Architecture
@@ -45,7 +46,9 @@ In a microservice architecture, to implement service discovery, if you are using
 
 ### Improvements
 Multiple DOT servers.
+
 Docker subnet agnost.
+
 IP white / black list.
 
 ## Versioning
