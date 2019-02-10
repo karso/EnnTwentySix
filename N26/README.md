@@ -26,7 +26,7 @@ docker build -t dot-proxy-server .
 docker run -it dot-proxy-server
 ```
 ### Verify
-1. To verify, from another terminal, run
+To verify, from another terminal, run
 ```
 docker exec -it {container ID} nslookup chess.com
 ```
@@ -44,9 +44,9 @@ In a microservice architecture, to implement service discovery, if you are using
 
 
 ### Improvements
-Multiple DOT servers
-Docker subnet agnost
-IP white / black list
+Multiple DOT servers.
+Docker subnet agnost.
+IP white / black list.
 
 ## Versioning
 
